@@ -36,7 +36,6 @@ export const Poster = (props) => {
       onClick={handleSelect}
       onKeyPress={handleSelect}
       tabIndex={focus ? 0 : -1}
-      key={id}
       ref={ref}
     >
       <img

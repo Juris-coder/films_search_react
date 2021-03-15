@@ -1,0 +1,1 @@
+{"ast":null,"code":"export * from \"./Footer\";","map":{"version":3,"sources":["D:/Web/films-search-react/components/Footer/index.js"],"names":[],"mappings":"AAAA,cAAc,UAAd","sourcesContent":["export * from \"./Footer\";\r\n"]},"metadata":{},"sourceType":"module"}

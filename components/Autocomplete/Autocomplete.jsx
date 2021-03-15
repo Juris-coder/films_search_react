@@ -38,10 +38,10 @@ const useFindFilm = (filmName) => {
 export const Autocomplete = (props) => {
   const { templateType, filmName } = props;
   const { items, loading, error, query } = useFindFilm(filmName);
-  const [focus, setFocus] = useRoveFocus(films.length);
   const Template = templates[templateType];
 
   const films = templateType === "Poster" ? items.slice(0, 3) : items;
+  const [focus, setFocus] = useRoveFocus(films.length);
 
   if (error) {
     return (

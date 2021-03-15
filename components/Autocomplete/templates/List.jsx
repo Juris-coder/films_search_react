@@ -29,7 +29,6 @@ export const List = (props) => {
       onClick={handleSelect}
       onKeyPress={handleSelect}
       tabIndex={focus ? 0 : -1}
-      key={id}
       ref={ref}
     >
       {itemTitle}
