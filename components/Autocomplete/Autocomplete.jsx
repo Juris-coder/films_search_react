@@ -55,9 +55,13 @@ export const Autocomplete = (props) => {
 
   if (!query) {
     return null;
-  } else if (query && items.length === 0) {
+  }
+
+  if (query && items.length === 0) {
     return <div className={styles.autocompleteStyling}>No results</div>;
-  } else if (query && items.length !== 0) {
+  }
+
+  if (query && items.length > 0) {
     return (
       <div className={styles.autocompleteStyling}>
         <div
